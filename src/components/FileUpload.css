@@ -1,0 +1,69 @@
+/* src/components/FileUpload.css */
+
+.file-upload {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.file-upload input {
+  margin-bottom: 10px;
+}
+
+.file-upload button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #00BFFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-upload button:hover {
+  background-color: #009ACD;
+}
+
+.loading-gif {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 600px) {
+  .file-upload {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .file-upload input {
+    width: 100%;
+  }
+
+  .file-upload button {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+.ReactModal__Overlay {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.ReactModal__Content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,41 @@
+/* src/App.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.file-upload {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.file-upload input {
+  margin-bottom: 10px;
+}
+
+.file-upload button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #00BFFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-upload button:hover {
+  background-color: #009ACD;
+}
