@@ -22,7 +22,7 @@ const FileUpload = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('https://fileshare-backend-6nvj.onrender.com/', formData);
+      const response = await axios.post('https://fileshare-backend-6nvj.onrender.com/upload', formData);
       setLink(response.data.link);
       setLoading(false);
       setModalIsOpen(true);
